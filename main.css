@@ -49,6 +49,12 @@ header .navbar-brand img{
     }
 }
 
+/* MAIN */
+main img{
+    width: 100%;
+    max-height: 600px;
+}
+
 /* FOOTER */
 footer{
     background-color:#2C2C2C ;
