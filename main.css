@@ -5,6 +5,11 @@
     font-family: "Hind Vadodara", Arial, Helvetica, sans-serif;
 }
 
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 /* HEADER */
 
 body > header{
@@ -18,7 +23,10 @@ body > header > .container-fluid{
 }
 
 body > header .navbar-toggler{
+<<<<<<< Updated upstream
     color: red;
+=======
+>>>>>>> Stashed changes
     background-color: white;
 }
 
@@ -51,6 +59,10 @@ header .navbar-brand img{
 }
 
 /* FOOTER */
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 footer{
     background-color:#2C2C2C ;
     color: white;
