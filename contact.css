@@ -1,0 +1,32 @@
+main{
+    color: #BC9B69;
+}
+
+main .row> div{
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+} 
+
+textarea{
+    height: 100px;
+}
+
+label,input{
+    line-height: 0.5em;
+}
+
+.submit{
+    margin-top: 1.5em;
+}
+
+.submit input{
+    border: none;
+    background-color:#6B0F15;
+    color: white;
+}
+
+.submit p{
+    color: black;
+}
