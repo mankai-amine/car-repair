@@ -15,4 +15,4 @@ simple with just an image of our store front.
 I think we only have the basics Facebook, Youtube, and Instagram
 Also our new logo should be available soon, remind us to give it to you for the site.
 
-# Stack: HTML, CSS, Bootstrap
+Stack: HTML, CSS, Bootstrap.
