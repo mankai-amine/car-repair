@@ -77,7 +77,7 @@ main img{
 }
 
 body.rates {
-    background-image: url("media/rates-image.png");
+    background-image: url("images/rates-image.png");
     background-repeat: no-repeat;
     background-size: 2000px;
     background-color: turquoise;
@@ -177,7 +177,9 @@ footer .row> div:nth-child(2) {
 .main-content {
     background-color: #454545;
     padding-top: 3%;
+    padding-bottom: 3%;
     margin-top: -5%; 
+    margin-bottom: -3%;
 }
 
 /* slider */
