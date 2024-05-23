@@ -15,6 +15,7 @@ body > header{
 
 body > header > .container-fluid{
     background-color: #454545;
+    padding-top: 0.7rem;
 }
 
 body > header .navbar-toggler{
@@ -24,7 +25,7 @@ body > header .navbar-toggler{
 body > header .nav-link{
     font-family: "Pridi", Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 2em;
+    font-size: 1.7em;
     margin-right: 2em;
 }
 
@@ -53,6 +54,28 @@ header .navbar-brand img{
 main img{
     width: 100%;
     max-height: 600px;
+}
+
+body.rates {
+    background-image: url("media/rates-image.png");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-color: turquoise;
+}
+
+h3 {
+    font-family: "Pridi", serif;
+    font-weight: 600;
+}
+
+.container.rates {
+    background-color: rgba(255, 255, 255, 0.507);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.col-md {
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 /* FOOTER */
