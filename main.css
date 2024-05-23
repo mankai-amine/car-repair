@@ -19,6 +19,7 @@ body > header{
     background-color: #2C2C2C;
     color: white;
     font-weight: 600;
+    margin-bottom: 5%;
 }
 
 body > header > .container-fluid{
@@ -47,14 +48,25 @@ body > header .nav-link:active {
 }
 
 header .navbar-brand img{
-    width: 142px;
-    height: 103px;
+    width: 12%; 
+    height: auto; 
+    position: absolute;
+    top: 0;
+    left: 20%;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
 }
+
+
 
 @media (max-width: 767.98px) { /* less than 'md' breakpoint */
     .center-contact {
         width: 100%;
         text-align: center;
+    }
+    header .navbar-brand img{
+        width: 25%; 
+        height: auto; 
     }
 }
 
@@ -164,8 +176,8 @@ footer .row> div:nth-child(2) {
 /* Portfolio - Main Content */
 .main-content {
     background-color: #454545;
-    padding-top: 20px; 
-    padding-bottom: 20px; 
+    padding-top: 3%;
+    margin-top: -5%; 
 }
 
 /* slider */
@@ -215,3 +227,14 @@ footer .row> div:nth-child(2) {
     box-sizing: border-box; 
 }
 
+@media (max-width: 768px) {
+    .slider-content .caption,
+    .slider-content .quote {
+        width: auto; 
+    }
+}
+
+/* Index - Main Content */
+#index-main {
+    margin-top: -5%; 
+}
