@@ -59,13 +59,13 @@ header .navbar-brand img{
 
 
 
-@media (max-width: 767.98px) { /* less than 'md' breakpoint */
+@media (max-width: 768px) { 
     .center-contact {
         width: 100%;
         text-align: center;
     }
     header .navbar-brand img{
-        width: 25%; 
+        width: 20%; 
         height: auto; 
     }
 }
@@ -175,7 +175,7 @@ footer .row> div:nth-child(2) {
 
 /* Portfolio - Main Content */
 .main-content {
-    background-color: #454545;
+    background: linear-gradient(to right, #57b59d, #246167);
     padding-top: 3%;
     padding-bottom: 3%;
     margin-top: -5%; 

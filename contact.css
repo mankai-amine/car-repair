@@ -1,5 +1,12 @@
 main{
-    color: #BC9B69;
+    color: white;
+    font-weight: 700;
+}
+
+body {
+    background-image: url("images/rates-image.png");
+    background-repeat: no-repeat;
+    background-size: 2000px;
 }
 
 main .row> div{
@@ -28,5 +35,7 @@ label,input{
 }
 
 .submit p{
-    color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8em;
 }
